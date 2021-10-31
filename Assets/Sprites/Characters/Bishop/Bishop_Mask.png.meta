@@ -1,0 +1,515 @@
+fileFormatVersion: 2
+guid: ca1e2aadd2622244e6f707c636760282
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8792105356900379812
+    second: Bishop_Mask_Head_Main
+  - first:
+      213: 4052925307725563138
+    second: Bishop_Mask_Braid
+  - first:
+      213: 6756773719113222724
+    second: Bishop_Mask_Thigh_01
+  - first:
+      213: 3121525175473714533
+    second: Bishop_Mask_Thigh_02
+  - first:
+      213: 2983915135735602828
+    second: Bishop_Mask_Belt
+  - first:
+      213: 1544505756015671564
+    second: Bishop_Mask_Torso
+  - first:
+      213: -8551669197122016442
+    second: Bishop_Mask_Head_Eyes
+  - first:
+      213: -7121267466905185339
+    second: Bishop_Mask_LowerLeg_01
+  - first:
+      213: -1247595254058654118
+    second: Bishop_Mask_Foot_01
+  - first:
+      213: -1969472710464362970
+    second: Bishop_Mask_Cloth
+  - first:
+      213: -7606193099307747519
+    second: Bishop_Mask_Hips
+  - first:
+      213: -3170930956976142760
+    second: Bishop_Mask_UpperArm_02
+  - first:
+      213: -8473667402218607209
+    second: Bishop_Mask_UpperArm_01
+  - first:
+      213: -8577918385840789753
+    second: Bishop_Mask_ForeArm_01
+  - first:
+      213: -8022181412322037921
+    second: Bishop_Mask_ForeArm_02
+  - first:
+      213: 7929969694607199970
+    second: Bishop_Mask_Hand_01
+  - first:
+      213: -5406444561254710100
+    second: Bishop_Mask_Hand_02
+  - first:
+      213: -6863295949748587939
+    second: Bishop_Mask_Belt
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.56615216, y: 0.49754983}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 284, w: 273}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bishop_Mask_Head_Main
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 626.1789
+        width: 362.88046
+        height: 397.8211
+      alignment: 9
+      pivot: {x: 0.43035007, y: 0.19452429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb8e028f4a646143ba1dc0f360cee53
+      internalID: -8792105356900379812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bishop_Mask_Braid
+      rect:
+        serializedVersion: 2
+        x: 403.4555
+        y: 831.1185
+        width: 78.42215
+        height: 192.88147
+      alignment: 9
+      pivot: {x: 0.52036065, y: 0.94449}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac518a899000bc542b252a8083efbe22
+      internalID: 4052925307725563138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bishop_Mask_Thigh_01
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 841
+        width: 101
+        height: 159
+      alignment: 9
+      pivot: {x: 0.5099886, y: 0.6877491}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b41073edabab2b4cae444265c0bb199
+      internalID: 6756773719113222724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bishop_Mask_Thigh_02
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 841
+        width: 93
+        height: 155
+      alignment: 9
+      pivot: {x: 0.48924732, y: 0.67635065}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56948d3ff2d155d43857d074c5429ce1
+      internalID: 3121525175473714533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bishop_Mask_Torso
+      rect:
+        serializedVersion: 2
+        x: 339.1251
+        y: 398.063
+        width: 238.5314
+        height: 246.32715
+      alignment: 9
+      pivot: {x: 0.37111577, y: 0.186367}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f81f48d3802884c9eea33c012cd300
+      internalID: 1544505756015671564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bishop_Mask_Head_Eyes
+      rect:
+        serializedVersion: 2
+        x: 390.53943
+        y: 726.99994
+        width: 110.46057
+        height: 46.00006
+      alignment: 9
+      pivot: {x: 0.5110574, y: 0.5108702}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e286d1c27b1fc4db4b302a1b22cc3c
+      internalID: -8551669197122016442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bishop_Mask_LowerLeg_01
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 413.89136
+        width: 143
+        height: 210
+      alignment: 9
+      pivot: {x: 0.35436755, y: 0.7478129}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd6dd392ccf4994ea772c9de13c660b
+      internalID: -7121267466905185339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bishop_Mask_Foot_01
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 331
+        width: 123
+        height: 52
+      alignment: 9
+      pivot: {x: 0.49593493, y: 0.52884614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a317a895e36075047b38d4eb2c9d0aaa
+      internalID: -1247595254058654118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bishop_Mask_Cloth
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 96
+        width: 210
+        height: 185
+      alignment: 9
+      pivot: {x: 0.5633278, y: 0.85259956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3cc6f4dcd06464e8a1aac1c5d3c0b3
+      internalID: -1969472710464362970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bishop_Mask_Hips
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 185.19916
+        width: 171
+        height: 148
+      alignment: 9
+      pivot: {x: 0.44572476, y: 0.64446443}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61b36bb6e606c541ac8bffbeb097847
+      internalID: -7606193099307747519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bishop_Mask_UpperArm_02
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 431
+        width: 91
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5303662, y: 0.7677158}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13692ab53b7de144b8d2a1e8bce8c212
+      internalID: -3170930956976142760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bishop_Mask_UpperArm_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 427.04434
+        width: 83
+        height: 167.95566
+      alignment: 9
+      pivot: {x: 0.40340045, y: 0.758249}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ff232712c2e3a489610ecf77149a63
+      internalID: -8473667402218607209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bishop_Mask_ForeArm_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 183
+        width: 100
+        height: 203
+      alignment: 9
+      pivot: {x: 0.34946716, y: 0.6878483}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f063bc6a6a86649b3e84e1b16e1282
+      internalID: -8577918385840789753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bishop_Mask_ForeArm_02
+      rect:
+        serializedVersion: 2
+        x: 119.705124
+        y: 181.2735
+        width: 99.294876
+        height: 208.17947
+      alignment: 9
+      pivot: {x: 0.35491854, y: 0.675404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824b5d3a00b136d4fbdc7f14c4e8ba23
+      internalID: -8022181412322037921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bishop_Mask_Hand_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 107
+        height: 135
+      alignment: 9
+      pivot: {x: 0.48835924, y: 0.654263}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb4d4896ff946b4382e7ebd8953af4a
+      internalID: 7929969694607199970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bishop_Mask_Hand_02
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 0
+        width: 114
+        height: 121
+      alignment: 9
+      pivot: {x: 0.51100385, y: 0.78179914}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9db7d1b52ac8a4983053740283b8a3
+      internalID: -5406444561254710100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bishop_Mask_Belt
+      rect:
+        serializedVersion: 2
+        x: 629.4016
+        y: 691.0286
+        width: 125
+        height: 93
+      alignment: 9
+      pivot: {x: 0.46078712, y: 0.5158212}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52bbde62bca0c0a0800000000000000
+      internalID: -6863295949748587939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 637330082200743237
+  assetBundleName: 
+  assetBundleVariant: 

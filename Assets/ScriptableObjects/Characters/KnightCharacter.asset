@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c68be6cfa53b49f585ba8804e8c1efc, type: 3}
+  m_Name: KnightCharacter
+  m_EditorClassIdentifier: 
+  CharacterType: 2
+  HumainName: Knight
+  IconPlayerOne: {fileID: 21300000, guid: bf42d81186a8844e07ef4570167eea54, type: 3}
+  IconPlayerTwo: {fileID: 21300000, guid: 4d00841148f729e4bd735fa2605fdf3b, type: 3}
+  Indicator: {fileID: 1358216628659258819, guid: 86863a58de68a449a9011c7f4efb3ebd,
+    type: 3}
+  HealthDefault: 100
+  Explosion: {fileID: 11400000, guid: 86c7a042e2420442988cf73712f457e9, type: 2}
+  GravityScale: 8
+  MoveSpeed: 7
+  MoveJumpHeight: 110
+  AnimationFactor: 1

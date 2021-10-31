@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1051736024503139898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8265125063569173397}
+  - component: {fileID: 2650192700450473716}
+  m_Layer: 0
+  m_Name: SFXManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8265125063569173397
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051736024503139898}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2650192700450473716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051736024503139898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a76936ffaede94a178160a11ebf41f89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SFXWeaponBazookaPrefab: {fileID: 3193587204679676908, guid: 49cff47e60a8140aeb6f24b30ff2ac57,
+    type: 3}
+  SFXWeaponDashPrefab: {fileID: 6747479870178692254, guid: bf7811f6ed7174107bc256529fabd84d,
+    type: 3}
+  SFXExplosionDeadPrefab: {fileID: 6747479870178692254, guid: c94e34e28213c490abe0365b248b6c04,
+    type: 3}
+  SFXExplosionDefaultPrefab: {fileID: 4161093328768936609, guid: 85430fa636f924578ab1135defe8688d,
+    type: 3}
+  SFXExplosionWithTextPrefab: {fileID: 4161093328768936609, guid: 7dc59e7684cae4a2c890dfb06d8c66e4,
+    type: 3}
+  SFXExplosionGunPrefab: {fileID: 4161093328768936609, guid: b1da81be86c7344e0bb24a633f180e46,
+    type: 3}
+  SFXExplosionFireDash: {fileID: 4161093328768936609, guid: 0ec75156918a941f08a7d750b318dd4d,
+    type: 3}
+  SFXLavaFallPrefab: {fileID: 4161093328768936609, guid: bf6c2af2097af48079b77bc517d75c21,
+    type: 3}
+  SFXPickupHealthPrefab: {fileID: 6747479870178692254, guid: 913cfb85093b947ae94d6bc8939e8574,
+    type: 3}
+  SFXPickupBoxPrefab: {fileID: 6747479870178692254, guid: 09c22be0bb209420983d978de7659450,
+    type: 3}
+  SFXPickupTurnPrefab: {fileID: 6747479870178692254, guid: ea4925a420b9e45e2a013419f82bf079,
+    type: 3}

@@ -1,0 +1,79 @@
+﻿using UnityEngine;
+using TMPro;
+using CC;
+using System;
+using System.Text.RegularExpressions;
+using UnityEngine.InputSystem;
+using Cysharp.Threading.Tasks;
+
+public class NetworkPopupController : MonoBehaviour
+{
+    #region Fields
+
+    [Header("References")]
+    [SerializeField] private FocusableButtonUIController confirmButton = default;
+    [SerializeField] private TMP_InputField gameIdInputField = default;
+
+    [Header("Config")]
+    [SerializeField] private bool shareVariant;
+
+    // State
+    private Func<string, UniTask> onSuccessAction;
+
+    #endregion
+
+    public void Show()
+    {
+        gameObject.SetActive(true);
+        PopupManager.PopupHasFocus(true);
+    }
+
+    public void Show(Func<string, UniTask> then)
+    {
+        onSuccessAction = then;
+        Show();
+    }
+
+    public void Show(string prefill)
+    {
+        gameIdInputField.text = prefill;
+        Show();
+    }
+
+    public void Hide()
+    {
+        if (MenuManager.Instance != null) {
+            MenuManager.Instance.PlaySoundClick();
+        }
+        PopupManager.PopupHasFocus(false);
+        gameObject.SetActive(false);
+    }
+
+    #region Actions
+
+    public void ConfirmGameIdAction()
+    {
+        string gameId = gameIdInputField.text.Trim();
+        var regex = new Regex("[^a-z0-9]", RegexOptions.IgnoreCase);
+        if (regex.IsMatch(gameId)) return;
+        if (string.IsNullOrWhiteSpace(gameId)) return;
+        onSuccessAction(gameId);
+        Hide();
+    }
+
+    #endregion
+
+    #region Input
+
+    private void Update()
+    {
+        if (Keyboard.current == null) return;
+        if (Keyboard.current.enterKey.wasPressedThisFrame || Keyboard.current.numpadEnterKey.wasPressedThisFrame) {
+            if (confirmButton == null) return;
+            confirmButton.ActualButton.onClick.Invoke();
+            return;
+        }
+    }
+
+    #endregion
+}

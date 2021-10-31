@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9754a8d72dc764e689a8c5de7c05129f, type: 3}
+  m_Name: FireworksWeapon
+  m_EditorClassIdentifier: 
+  WeaponType: 10
+  WeaponHumanName: Fireworks
+  Icon: {fileID: 21300000, guid: 66688b5874ff3458486ce5927feaacbd, type: 3}
+  WeaponGroup: 20
+  CanReceiveForce: 0
+  IsDropable: 1
+  IsCharacterItself: 0
+  HasRetreat: 1
+  MinAngle: 0
+  MaxAngle: 0
+  ShowSight: 0
+  RequestCameraFollow: 1
+  AIKnowsHowToUse: 0
+  SpecialFor: 5
+  AmmoType: 12
+  Explosion: {fileID: 11400000, guid: cdd62b488b4a34578b7f33aa6ca604be, type: 2}
+  ExplodeInSeconds: 0
+  WindMultiplier: 6
+  Speed: 0
+  UnitsDefault: 1
+  UnitsUnlimited: 0
+  SightOffset: 0

@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6863341369644054600
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6863341369644054646}
+  - component: {fileID: 7273246080584448280}
+  - component: {fileID: 16774342596123658}
+  - component: {fileID: 6863341369644054647}
+  - component: {fileID: 6863341369842342425}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6863341369644054646
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6863341369644054600}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7273246080584448280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6863341369644054600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97b62c13b4caf4334a3c5a5aadd82906, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &16774342596123658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6863341369644054600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90be00426f3144779ba8dd7c943d20d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skipTags: 
+  onlyTags: 
+--- !u!114 &6863341369644054647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6863341369644054600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4497497de436d43879de2432b4d73425, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapController: {fileID: 0}
+  mainUIController: {fileID: 0}
+  cameraManager: {fileID: 0}
+  weaponManager: {fileID: 0}
+  explosionManager: {fileID: 0}
+  voiceManager: {fileID: 0}
+  sfxManager: {fileID: 0}
+  RoundPrefab: {fileID: 8670253649949809774, guid: fd5e221bb95084635b1f5fe6adb468b6,
+    type: 3}
+  PlayerPrefab: {fileID: 3576254070581962978, guid: 607febb5948a14028bce84ae5c8641b4,
+    type: 3}
+  CharacterTargetPrefab: {fileID: 3649016330539841848, guid: 8280bcf961b0c429e86b65028c64c0d6,
+    type: 3}
+  soundEventMusic: {fileID: 6863341369842342425}
+  IsPredefined: 0
+  PlayerOnePositions: []
+  PlayerTwoPositions: []
+  PredefinedGameOption: {fileID: 0}
+--- !u!114 &6863341369842342425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6863341369644054600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/MUSIC/001_CB_MUSIC_JUNGLE_LEVEL_01
+  PlayEvent: 0
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0

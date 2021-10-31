@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Bounds
+  - Type Platform
+  - Type Statue
+  - Type Ground
+  - Bound Lava
+  - Positioning
+  - FxTemporaire
+  - Sound Character
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Character
+  - Terrain
+  - Empty
+  - Bounds
+  - WeaponDropable
+  - Box
+  - Weapon
+  - Explosion
+  - Platform
+  - Mine
+  - Positioning
+  - Object
+  - Nothing
+  - TransferForce
+  - Ragdoll
+  - Target
+  - SFX
+  - Shield
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 3000399431
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Map
+    uniqueID: 4012850811
+    locked: 0
+  - name: SpriteShapeBackground
+    uniqueID: 4071019519
+    locked: 0
+  - name: SpriteShapeForeground
+    uniqueID: 3743252429
+    locked: 0
+  - name: CharacterBackground
+    uniqueID: 2694002599
+    locked: 0
+  - name: Character
+    uniqueID: 1796600161
+    locked: 0
+  - name: Mortar
+    uniqueID: 997291271
+    locked: 0
+  - name: Weapon
+    uniqueID: 3434249391
+    locked: 0
+  - name: LavaForeground
+    uniqueID: 2715148925
+    locked: 0
+  - name: SFXForeground
+    uniqueID: 3698129803
+    locked: 0
+  - name: InGameUI
+    uniqueID: 2843907757
+    locked: 0

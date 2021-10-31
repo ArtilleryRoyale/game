@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9754a8d72dc764e689a8c5de7c05129f, type: 3}
+  m_Name: MortarWeapon
+  m_EditorClassIdentifier: 
+  WeaponType: 3
+  WeaponHumanName: Mortar
+  Icon: {fileID: 21300000, guid: 6f9f9dbfd204943ef9619ac8100343e6, type: 3}
+  WeaponGroup: 10
+  CanReceiveForce: 0
+  IsDropable: 0
+  IsCharacterItself: 0
+  HasRetreat: 1
+  MinAngle: 45
+  MaxAngle: 90
+  RequestCameraFollow: 1
+  AIKnowsHowToUse: 0
+  SpecialFor: 5
+  AmmoType: 5
+  Explosion: {fileID: 11400000, guid: 9e924bf1466e44779ac819f55f343088, type: 2}
+  ExplodeInSeconds: 0
+  WindMultiplier: 0
+  Speed: 90
+  UnitsDefault: 3
+  UnitsUnlimited: 0
+  SightOffset: 0

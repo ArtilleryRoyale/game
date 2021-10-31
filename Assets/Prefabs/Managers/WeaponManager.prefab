@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3955643468460058369
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4870831572243487966}
+  - component: {fileID: 291371021200017417}
+  m_Layer: 0
+  m_Name: WeaponManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4870831572243487966
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3955643468460058369}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &291371021200017417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3955643468460058369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36f8d2a59d61d48a1985df9d17ff4429, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bazookaLogicPrefab: {fileID: 2242802747307107977, guid: 6202ca3be633246e6ac0079b7f0253e6,
+    type: 3}
+  bazookaLogicPrefabAI: {fileID: 2242802747307107977, guid: e5c57fc5ee8ea449f9610c85c5ac7a3a,
+    type: 3}
+  grenadeLogicPrefab: {fileID: 6763801386436057885, guid: 96660564274394bd9a8c46519abbe1a2,
+    type: 3}
+  grenadeLogicPrefabAI: {fileID: 6763801386436057885, guid: 8fee9990106204bcb9b5eecb90aba737,
+    type: 3}
+  stickyGrenadeLogicPrefab: {fileID: -7649822445146422102, guid: 5cd403cbaa217401ca2feaf8d520fee1,
+    type: 3}
+  shotgunLogicPrefab: {fileID: 4043591671392095265, guid: 37e221538f65848418196575174e9081,
+    type: 3}
+  mortarLogicPrefab: {fileID: 1848072988277393367, guid: e18ddf90fdd2e40b09c06ddb6693ae1f,
+    type: 3}
+  bombLogicPrefab: {fileID: 4609057947479265786, guid: 96ff556ba70a741049109489d652159a,
+    type: 3}
+  dashLogicPrefab: {fileID: 6812366420264300404, guid: 4dd3098dfcfbe4b8ca7c1c8877f36a6c,
+    type: 3}
+  highJumpLogicPrefab: {fileID: 8136309345352775911, guid: 4700c74dc5ee14a699849d733cf44578,
+    type: 3}
+  beamLogicPrefab: {fileID: 7680083144481333009, guid: 3f3e12b904f2b458bab063f7f4e84492,
+    type: 3}
+  sniperLogicPrefab: {fileID: 3739411750076060412, guid: 12dea7c67ab844b679d1f51d068ac65b,
+    type: 3}
+  teleportLogicPrefab: {fileID: 1232906883536090972, guid: d7c80efe4c4f24278b60d853a585fbee,
+    type: 3}
+  fireworksLogicPrefab: {fileID: 1385648744008526876, guid: b11c8ef7a76e748f09e39e568621f992,
+    type: 3}
+  snakeLogicPrefab: {fileID: 6399370711978242284, guid: dd55bee7660d64e6f8a29493b63527db,
+    type: 3}
+  rabbitLogicPrefab: {fileID: 4948921041736809334, guid: 51f082c21698a41cf9553c8764f43838,
+    type: 3}
+  ropeLogicPrefab: {fileID: 362286853170802481, guid: 5d82489c0b0df483ea05bd7471adcff4,
+    type: 3}
+  shieldLogicPrefab: {fileID: -7020680799569229243, guid: 859b03d51e12346a2a14afbe481c4643,
+    type: 3}
+  meteorLogicPrefab: {fileID: 3896187470460925689, guid: 8fe569d4a8f814072a1321def9cb44b1,
+    type: 3}
+  rainbowLogicPrefab: {fileID: 9017246502898150149, guid: fae43fdb5517e43e6b7ace44116571b2,
+    type: 3}
+  weaponRook: {fileID: 11400000, guid: ee603ab8642d94fa98973e046d2049dc, type: 2}
+  weaponBishop: {fileID: 11400000, guid: c23e1e0766a8840c2a63faa4c57edd28, type: 2}
+  weaponKnight: {fileID: 11400000, guid: 158660b3ba8e843a69f5757d4fc0a8e4, type: 2}
+  weaponQueen: {fileID: 11400000, guid: 7fcdc9a5cb9f64e84be2216f366ffa13, type: 2}
+  weaponKing: {fileID: 11400000, guid: 378726895e8e14e939ced453fb583833, type: 2}
+  WeaponsDefault:
+  - {fileID: 11400000, guid: b9554df75f50745eb9a1e6008dfaa329, type: 2}
+  - {fileID: 11400000, guid: 6456da666be93497aa13d448577e045e, type: 2}
+  - {fileID: 11400000, guid: 9ffb98592a5a84e44993efc9fa6af443, type: 2}
+  - {fileID: 11400000, guid: afd4f34700d204af38051ef4aba3a188, type: 2}
+  - {fileID: 11400000, guid: 63e101cfdb5c5472f9c3913c8a29c33b, type: 2}
+  - {fileID: 11400000, guid: fbc71aa2fdc474b908f1d1ee433c611b, type: 2}
+  - {fileID: 11400000, guid: 23c843a77acd34c02a45842649055c57, type: 2}
+  WeaponsExtra:
+  - {fileID: 11400000, guid: 2a26676fbf8364954b482dc0b07e94d6, type: 2}
+  - {fileID: 11400000, guid: 66e86bef704f94fd09a8441385e55550, type: 2}
+  - {fileID: 11400000, guid: bb25a95d94ccb4680a6d1c254e403569, type: 2}
+  - {fileID: 11400000, guid: a66ca22cd66474caab02bbea46f959f6, type: 2}
+  - {fileID: 11400000, guid: c58c641194e7649d4b6473ebef3f5bea, type: 2}

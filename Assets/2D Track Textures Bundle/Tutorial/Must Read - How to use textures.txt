@@ -1,0 +1,25 @@
+2D Sprite Shapes:
+
+You can find all information about sprite shapes here https://github.com/Unity-Technologies/2d-spriteshape-samples/blob/master/Documentation/SpriteShape.md
+
+Also tutorials on youtube:
+
+Getting Started with Sprite Shape in Unity 2018! 
+https://www.youtube.com/watch?v=wumwrMori1Y&list=PLjCo-FN8cxxPbAKmjoyCcg3_lwHpSknMR
+
+
+
+Ferr2D Scenes.
+
+Before importing this asset to your project, you should go to "Edit > Project Settings > Editor" and make sure "Asset Serialization" is not set to "Force Text Mode"
+This has to be done to avoid unwanted exeptions.
+
+This texture pack is using Ferr2D Terrain Tool. For editing scenes Ferr2D editor is required. 
+
+You can find  this tool here: 
+https://assetstore.unity.com/packages/tools/level-design/ferr2d-terrain-tool-11653
+
+
+
+
+Package also includes sliced tiling textures. Pack works with Unity sprites

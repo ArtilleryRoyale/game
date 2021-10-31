@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af7181f404f1447c0a7a17b3070b952b, type: 3}
+  m_Name: Jungle_Base_SpriteShape
+  m_EditorClassIdentifier: 
+  m_Angles:
+  - m_Start: -55
+    m_End: 55
+    m_Order: 0
+    m_Sprites:
+    - {fileID: 21300000, guid: 32ea263f72c17e1469c1db9557a35859, type: 3}
+    - {fileID: 21300000, guid: baa8702b720e5f44c955dafb0cce8404, type: 3}
+    - {fileID: 21300000, guid: 1b6447498727f50488b22f43e33fbba5, type: 3}
+  - m_Start: 55
+    m_End: 305
+    m_Order: 1
+    m_Sprites:
+    - {fileID: 21300000, guid: 477becd2f243fdb4d91ac96198e7cd27, type: 3}
+  m_FillTexture: {fileID: 2800000, guid: 8ac7d6fb19fe58f4f9cfd6043daa8721, type: 3}
+  m_CornerSprites:
+  - m_CornerType: 0
+    m_Sprites:
+    - {fileID: 21300000, guid: 3433d4a000d5c934f877089e8fd7121e, type: 3}
+  - m_CornerType: 1
+    m_Sprites:
+    - {fileID: 21300000, guid: fb30ba8c8fa735b46bb6e2bdd28bdd55, type: 3}
+  - m_CornerType: 2
+    m_Sprites:
+    - {fileID: 0}
+  - m_CornerType: 3
+    m_Sprites:
+    - {fileID: 0}
+  - m_CornerType: 4
+    m_Sprites:
+    - {fileID: 0}
+  - m_CornerType: 5
+    m_Sprites:
+    - {fileID: 0}
+  - m_CornerType: 6
+    m_Sprites:
+    - {fileID: 0}
+  - m_CornerType: 7
+    m_Sprites:
+    - {fileID: 0}
+  m_FillOffset: -0.03
+  m_UseSpriteBorders: 1
